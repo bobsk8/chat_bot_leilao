@@ -14,7 +14,7 @@ function createHeroCard(session) {
         .subtitle('E faça um bom negócio.')
         .text('Em que posso te ajudar?')
         .images([
-        builder.CardImage.create(session, 'http://www.alfacenter.com.br/wp-content/uploads/2016/05/leilao.jpg')
+        builder.CardImage.create(session, 'https://cdn.pixabay.com/photo/2017/07/10/23/49/club-2492011_960_720.jpg')
     ]);
 }
 

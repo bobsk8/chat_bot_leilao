@@ -1,6 +1,7 @@
 /*-----------------------------------------------------------------------------
 A simple echo bot for the Microsoft Bot Framework. 
 -----------------------------------------------------------------------------*/
+require('dotenv-extended').load();
 
 var
     googleDatas         = require('./google/get-datas').getAnswer,

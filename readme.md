@@ -8,10 +8,12 @@ Your code changes go live as the code changes are saved.
 
 ### Build and debug
 1. download source code zip and extract source in local folder
-2. open the source folder in  Visual Studio Code
-3. make code changes
-4. download and run [botframework-emulator](https://emulator.botframework.com/)
-5. connect the emulator to http://localhost:3987
+2. run npm install inside folder 
+3. open the source folder in  Visual Studio Code
+4. create .env file(look at the .envexemple file)
+5. run node app.js
+6. download and run [botframework-emulator](https://emulator.botframework.com/)
+7. connect the emulator to http://localhost:3978/api/messages (set MicrosoftAppId and MicrosoftAppPassword)
 
 ### Publish back
 
