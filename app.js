@@ -50,7 +50,7 @@ var LuisModelUrl = 'https://' + luisAPIHostName + '/luis/v1/application?id=' + l
 // Main dialog with LUIS
 var recognizer = new builder.LuisRecognizer(LuisModelUrl);
 
-var intents = router(builder, recognizer);
+var intents = router(builder, recognizer, googleDatas);
 
 bot.dialog('/', intents);
 
